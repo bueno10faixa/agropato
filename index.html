@@ -1,78 +1,157 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cultivo de Vegetais Urbanos - Saúde e Terapia</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Agro Pato</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <header>
-    <div class="container">
-      <h1>Cultivo de Pequenos Vegetais na Cidade</h1>
-      <p>Transforme sua casa em um oásis orgânico e beneficie-se de uma alimentação saudável e terapêutica.</p>
-    </div>
-  </header>
+    <header class=" p-5">
 
-  <section class="intro">
-    <div class="container">
-      <h2>Por que Cultivar Seus Próprios Vegetais?</h2>
-      <p>O cultivo de vegetais em ambientes urbanos oferece benefícios para a saúde física e mental. Ao plantar, você cria um espaço de conexão com a natureza, reduzindo o estresse e promovendo uma alimentação mais saudável e orgânica.</p>
-      <p>Além disso, cuidar de plantas é um ótimo exercício para a mente, promovendo relaxamento e bem-estar.</p>
-    </div>
-  </section>
+        <nav class="container d-flex justify-content-between align-items-center" >
+            <img src="img/mam.png" class="nav-img " loading="lazy">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+            <div id="acessibilidade" class="menu-acessibilidade"> 
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="diminuir o tamanho da fonte">A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> <i class="bi bi-shadows"></i></button>         
+                </div>
+            </div>
+        </nav>
+       
+    </header>
 
-  <section class="benefits">
-    <div class="container">
-      <h2>Benefícios para a Saúde e Bem-Estar</h2>
-      <div class="benefit-item">
-        <h3>Saúde Física</h3>
-          <img src="img/saúe fisica.jpeg" alt="">
-        <p>Alimentos orgânicos são livres de agrotóxicos e contam com mais nutrientes. Cultivar seus próprios vegetais garante uma alimentação mais natural e rica.</p>
-      </div>
-      <div class="benefit-item">
-        <h3>Saúde Mental</h3>
-        <p>Cuidar das plantas reduz níveis de estresse e ansiedade. O simples ato de cuidar de um jardim pode ser uma forma eficaz de terapia.</p>
-      </div>
-    </div>
-  </section>
 
-  <section class="tips">
-    <div class="container">
-      <h2>Dicas de Cultivo para Iniciantes</h2>
-      <ul>
-        <li><strong>Escolha o local certo:</strong> Prefira lugares com boa luz natural e ventilação.</li>
-        <li><strong>Escolha as plantas certas:</strong> Alface, tomate, cenoura e ervas como manjericão e alecrim são ótimas opções.</li>
-        <li><strong>Cuide da irrigação:</strong> Regue suas plantas de acordo com as necessidades de cada tipo de vegetação. Evite encharcar o solo.</li>
-        <li><strong>Solo saudável:</strong> Use compostos orgânicos para manter o solo fértil e saudável.</li>
-        <li><strong>Paciência:</strong> Lembre-se que cada planta tem seu tempo de crescimento. Respeite os ciclos naturais.</li>
-      </ul>
-    </div>
-  </section>
+    <main class="container my-5">
 
-  <section class="gallery">
-    <div class="container">
-      <h2>Galeria de Cultivo</h2>
-      <div class="images">
-        <img src="img/jardimverde.jpg" alt="Plantas no jardim">
-        <img src="img/hortaurbana.jpeg" alt= "Horta urbana">
-        <img src="img/organico-morangos-Budny.jpg" alt="Plantação de vegetais orgânicos">
-      </div>
-    </div>
-  </section>
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas a</h1>
+                    <img src="img/Agro Pato.png" class="mb-3" width="563"
+                        height="278" loading="lazy">
+                    <a href="#tropicalia"
+                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
+                        conhecer!</a>
+                </div>
+        
+        </section>
 
-  <section class="producers">
-    <div class="container">
-      <h2>Conheça Produtores Locais</h2>
-      <p>Converse com produtores locais de hortas urbanas para trocar experiências e aprender com quem já pratica o cultivo sustentável.</p>
-      <p>Confira alguns exemplos de produtores na sua região e veja como você pode começar a sua própria horta!</p>
-    </div>
-  </section>
+        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia" tabindex="0" aria-label="Seção explicativa sobre a tropicália">
+            <div class="container d-flex align-items-center ">
+                <div class="col-4 d-flex justify-content-center ">
+                    <img src="img/cozinheira.png" class="rounded-pill" width="273" height="331" loading="lazy">
+                </div>
+                <div class="col-lg-10">
+                    <h2>Criação de Patos</h2>
+                    <p class="p-2">A criação de patos tem se tornado cada vez mais popular, tanto para produção de ovos e carne quanto como uma atividade recreativa. Esses animais são conhecidos por sua resistência, facilidade de adaptação e comportamento curioso. Além disso, são excelentes no controle de pragas e podem trazer benefícios ambientais, ajudando a manter lagos e áreas alagadas saudáveis.</p>
+                </div>
+            </section>
 
-  <footer>
-    <div class="container">
-      <p>© 2025 Cultivo Urbano - Seu Jardim Terapêutico. Todos os direitos reservados.</p>
-    </div>
-  </footer>
+         <section>
+            <section id="tropicalia" class="my-5 pt-6 secao-tropicalia" tabindex="0" aria-label="Seção explicativa sobre a tropicália">
+                <div class="container d-flex align-items-center ">
+                    <div class="col-4 d-flex justify-content-center ">
+                        <img src="img/comendosopa.png" class="rounded-pill" width="273" height="331" loading="lazy">
+                    </div>
+                <div class="col-lg-10">
+                    <h2>Voz da Tradição</h2>
+                    <p class="p-2">"Ir ao evento da Sopa de Santa Rita é algo muito especial pra mim e carrega uma forte memória afetiva. Mesmo sendo no inverno, comer aquelas sopas quentes até suar, cercada pela minha família, torna tudo mais acolhedor. O mais bonito é ver como a tradição se mantém: minha mãe frequentava esse evento com os irmãos e minha avó quando tinha a minha idade. Hoje, ela vai com os mesmos irmãos, a mãe e agora também com filhos e sobrinhos. É como se o tempo se encontrasse ali, à mesa.Esses eventos comunitários trazem muito mais do que comida boa — eles carregam histórias, cultura e tradições que atravessam gerações. Você paga um valor único, come o quanto quiser, ainda ganha sobremesa e concorre a prêmios.E não importa a sua idade, de onde você vem ou se acha que é moderno demais pra um evento de igreja do interior. A verdade é que, ao primeiro prato, você já sente — ali tem algo que o tempo não leva: o aconchego de estar junto. A sopa é só o começo." — Renata Padilha
+         </section>
+
+         <section>
+                <div class="col-lg-10"> 
+                    <h2>Toque Final</h2>
+                    <p class="p-2">Na mesa da Sopa de Santa Rita, não se serve apenas comida — servem-se histórias que se repetem, que se cruzam, que se tornam memória. Renata nos lembra que tradição não é coisa do passado: é aquilo que vive e resiste, uma concha quente por vez, nos corações de quem se senta para partilhar.
+
+                        O Memórias à Mesa nasce com esse propósito: unir as festas de comunidade e as tradições antigas com a modernidade. Aqui, mostramos que nem tudo se perdeu com o tempo ou com os avanços da humanidade. Algumas coisas continuam firmes — como o cheiro de sopa em noite fria, o riso em volta da mesa, e a força de um costume que atravessa gerações.
+                        
+                        E é assim que começamos nossa jornada, onde cada prato é uma lembrança, e cada lembrança, um pedaço da nossa história.</p>
+
+                </div>
+         </section>
+
+            </div>
+        </section>
+
+        <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/sopagostosa.png" alt="A"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/sopadeabobora.png" class="img-fluid rounded-5"
+                            loading="lazy">
+                    </div>
+                </div>
+                <div class="row mt-4  justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/sopaminestrone.png" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/sopapao.png"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                </div>
+             </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por Renata Padilha. Projeto fictício sem fins comerciais.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+    <script src="script.js"></script>
+  
 </body>
+
 </html>
